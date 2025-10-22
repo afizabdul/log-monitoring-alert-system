@@ -68,7 +68,7 @@ It also logs the alerts to `/var/log/security_alerts.log`, which is then forward
 
 ## Run the monitoring script:
 
-sudo python3 log_monitor.py
+    sudo python3 log_monitor.py
 
 # Generate some failed login attempts and check your Telegram, Slack, or Email for alerts.
 
