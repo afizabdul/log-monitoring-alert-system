@@ -63,19 +63,20 @@ It also logs the alerts to `/var/log/security_alerts.log`, which is then forward
    ```bash
    sudo filebeat setup
    sudo systemctl start filebeat
-## yaml file is included 
+   
+## yml file is included 
 
 ## Run the monitoring script:
-#included 
+
 sudo python3 log_monitor.py
 
 # Generate some failed login attempts and check your Telegram, Slack, or Email for alerts.
 
 
 
-#  Open Kibana to visualize alerts.
+##  Open Kibana to visualize alerts.
 
-#  go through report for more
+##  go through report for more
 
 ## 🚀 Future Improvements
 
