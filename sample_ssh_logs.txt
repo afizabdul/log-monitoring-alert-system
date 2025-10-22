@@ -1,0 +1,54 @@
+Sep 08 12:50:12 kali systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Sep 08 12:50:12 kali systemd[1]: ssh.service: Deactivated successfully.
+Sep 08 12:50:12 kali systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+Sep 08 12:50:12 kali systemd[1]: ssh.service: Consumed 3.404s CPU time, 68.7M memory peak.
+-- Boot ee1fc9a0bffa4852aff264f0dc830345 --
+Sep 18 11:38:28 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Sep 18 11:38:28 kali sshd[34932]: Server listening on 0.0.0.0 port 22.
+Sep 18 11:38:28 kali sshd[34932]: Server listening on :: port 22.
+Sep 18 11:38:28 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Sep 18 11:42:47 kali sshd-session[37307]: Invalid user fakeuser from 127.0.0.1 port 54942
+Sep 18 11:42:53 kali sshd-session[37307]: pam_unix(sshd:auth): check pass; user unknown
+Sep 18 11:42:53 kali sshd-session[37307]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Sep 18 11:42:53 kali sshd-session[37307]: pam_winbind(sshd:auth): getting password (0x00000388)
+Sep 18 11:42:53 kali sshd-session[37307]: pam_winbind(sshd:auth): pam_get_item returned a password
+Sep 18 11:42:55 kali sshd-session[37307]: Failed password for invalid user fakeuser from 127.0.0.1 port 54942 ssh2
+Sep 18 11:44:46 kali sshd[34932]: Timeout before authentication for connection from 127.0.0.1 to 127.0.0.1, pid = 37307
+Sep 18 12:27:50 kali sshd[34932]: Received signal 15; terminating.
+Sep 18 12:27:50 kali systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Sep 18 12:27:50 kali systemd[1]: ssh.service: Deactivated successfully.
+Sep 18 12:27:50 kali systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot 45204c42f27d4d02a36e38ce2771e9ca --
+Sep 19 04:41:43 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Sep 19 04:41:43 kali sshd[1076]: Server listening on 0.0.0.0 port 22.
+Sep 19 04:41:43 kali sshd[1076]: Server listening on :: port 22.
+Sep 19 04:41:43 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Sep 19 04:41:57 kali systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Sep 19 04:41:57 kali sshd[1076]: Received signal 15; terminating.
+Sep 19 04:41:57 kali systemd[1]: ssh.service: Deactivated successfully.
+Sep 19 04:41:57 kali systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot 71608746fcfb4e2a8ed2ca402f9764af --
+Sep 19 14:39:33 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Sep 19 14:39:33 kali sshd[1004]: Server listening on 0.0.0.0 port 22.
+Sep 19 14:39:33 kali sshd[1004]: Server listening on :: port 22.
+Sep 19 14:39:33 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Sep 19 16:08:13 kali systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Sep 19 16:08:13 kali sshd[1004]: Received signal 15; terminating.
+Sep 19 16:08:13 kali systemd[1]: ssh.service: Deactivated successfully.
+Sep 19 16:08:13 kali systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot 2ede154fa1204d518bb15f98af4a23a2 --
+Sep 20 06:09:33 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Sep 20 06:09:33 kali sshd[1007]: Server listening on 0.0.0.0 port 22.
+Sep 20 06:09:33 kali sshd[1007]: Server listening on :: port 22.
+Sep 20 06:09:33 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Sep 20 06:22:18 kali sshd-session[8880]: Invalid user user from 127.0.0.1 port 36632
+Sep 20 06:22:22 kali sshd-session[8880]: pam_unix(sshd:auth): check pass; user unknown
+Sep 20 06:22:22 kali sshd-session[8880]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Sep 20 06:22:22 kali sshd-session[8880]: pam_winbind(sshd:auth): getting password (0x00000388)
+Sep 20 06:22:22 kali sshd-session[8880]: pam_winbind(sshd:auth): pam_get_item returned a password
+Sep 20 06:22:24 kali sshd-session[8880]: Failed password for invalid user user from 127.0.0.1 port 36632 ssh2
+Sep 20 06:22:30 kali sshd-session[8880]: pam_unix(sshd:auth): check pass; user unknown
+Sep 20 06:22:30 kali sshd-session[8880]: pam_winbind(sshd:auth): getting password (0x00000388)
+Sep 20 06:22:30 kali sshd-session[8880]: pam_winbind(sshd:auth): pam_get_item returned a password
+Sep 20 06:22:32 kali sshd-session[8880]: Failed password for invalid user user from 127.0.0.1 port 36632 ssh2
+Sep 20 06:24:19 kali sshd[1007]: Timeout before authentication for connection from 127.0.0.1 to 127.0.0.1, pid = 8880
