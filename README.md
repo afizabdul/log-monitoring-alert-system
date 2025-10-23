@@ -78,10 +78,15 @@ It also logs the alerts to `/var/log/security_alerts.log`, which is then forward
 
 ##  go through report for more
 
-## 🚀 Future Improvements
+## 🚀 Future Improvemets
 
 - Add real-time dashboard refresh automation.
 
 - Extend detection rules for network anomalies.
 
 - Integrate with SIEM platforms for centralized analysis.
+
+## 👨‍💻 Author
+
+---- Afizabdul
+
